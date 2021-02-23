@@ -1,0 +1,33 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.jumbotron {
+  padding: 3rem 2rem;
+  margin-bottom: 3rem;
+  background-color: #e9ecef;
+  border-radius: .3rem;
+}
+.transform {
+  background: #0e6e84;
+  padding: 100px 0;
+  transform: skew(0deg, -5deg) translateY(-110px);
+  position: relative;
+}
+.image-container {
+  margin-top: -150px;
+  margin-left: 43%;
+  position: absolute;
+}
+.card{
+  height:500px
+}
+.profile {
+  height: 200px;
+  width: 200px;
+}
+.masai-learnings {
+  height: 220px;
+  width: 220px;
+  border: 10px solid #529ceb;
+}
