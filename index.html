@@ -24,6 +24,10 @@
      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
      crossorigin="anonymous"></script>
 
+     <!--GIT HUB-->
+     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+
   </head>
   <body>
     <div class="transform"></div>
@@ -282,7 +286,7 @@
             >
             <a
               class="card-link text-muted"
-              href="images/"
+             
               target="__blank"
               ><i class="fa fa-external-link"></i>&nbsp;<strong
                 >Demo</strong
@@ -556,6 +560,19 @@
     </div>
    
   </div>
+  <div class="row mt-3">
+    <div class="col">
+        <div class="calendar">
+            Loading the data just for you.
+        </div>
+    </div>
+</div>
+</body>
+<script>
+GitHubCalendar(".calendar", "Bhupendrasimha");
+
+GitHubCalendar(".calendar", "Bhupendrasimha", { responsive: true });
+</script>
   
   </body>
 </html>
